@@ -1,5 +1,12 @@
-body{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
     background-color: black;
+    color: azure;
 }
 
 header {
@@ -9,13 +16,93 @@ header {
     align-items: center;
     color: azure;
     font-size: smaller;
-    padding-top: 1em;
+    padding-top: 3em;
 }
 
-.salute{
+h1{
+    margin: 3em;
+    color: azure;
+}
+.salute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin: 1em 0;
+}
+
+.intro{
     text-align: center;
     display: flex;
     justify-content: center; 
-    color: aliceblue;
+    align-items: center;
+    color: azure;
+    font-size: smaller;
+    padding-top: 10em;
+    margin: 5em;
+    flex-direction: column;
+}
+
+.intro p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    background-color: beige;
+    width: 85em;
+}
+
+h2{
+    text-align: center;
     font-size: xx-large;
+    color: black;
+    justify-items: center;
+}
+
+.exp{
+    text-align: center;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    color: black;
+    list-style: none;
+}
+
+li{
+    padding: 0.3em;
+}
+
+.op1{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.tutorial li{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    color: black;
+    list-style: none;
+    flex-direction: column;
+}
+
+/* Optional: Sesuaikan footer jika diperlukan */
+footer {
+    margin-top: auto;
 }
